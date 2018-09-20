@@ -92,4 +92,17 @@ public @interface Command {
      */
     boolean requiresMention() default false;
 
+    /**
+     * Gets the category of this command.
+     *
+     * @return Category of this command.
+     */
+    String category() default "";
+
+    /**
+     * Gets the cost of the command.
+     *
+     * @return The cost of the command.
+     */
+    String beanCoinPrice() default "0 beanCoin";
 }
