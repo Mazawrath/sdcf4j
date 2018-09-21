@@ -100,7 +100,7 @@ public @interface Command {
     String category() default "";
 
     /**
-     * Gets the cost of the command.
+     * Gets the beasnCoin cost of this command.
      *
      * @return The cost of the command.
      */
